@@ -37,7 +37,6 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
         db.execSQL(DROP_USER_TABLE);
         onCreate(db);
-
     }
 
     public void addUser(User user) {
